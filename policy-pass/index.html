@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Policy Password tool</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+        color: white;
+      }
+      td,
+      th {
+        border: 1px solid #000;
+      }
+      #log {
+         font-family: "Courier"   
+       }
+    </style>
+  </head>
+  <body>
+    <p>
+    <h1>Policy Password tool</h1>
+    <p>
+      <i>This tool should not be used for illegal activity. By using this tool, you acknowledge that you are legally allowed to extract the password(s) in question.</i>
+      <br />
+      <br />
+      <h>This is a reupload of the site found </h> <a href="https://luphoria.com/netlog-policy-password-tool">here.</a> <h>All credit goes to luphoria.</h>
+      <br />
+      <br />
+      <b>Upload chrome-net-export-log.json - </b>
+      <input type="file" id="export" />
+      <br />
+    <table id="output-networks">
+      <tr>
+        <th>SSID</th>
+        <th>Credentials</th>
+        <th>Security</th>
+        <th>HiddenSSID</th>
+      </tr>
+    </table>
+    <h2>How to use</h2> - Visit chrome://net-export <br /> - In "OPTIONS" set "Include raw bytes" <br /> - Click "Start Logging to Disk" <br /> - Visit chrome://policy <br /> - Click "Reload policies" <br /> - Go back to chrome://net-export and click "Stop logging" <br /> - Upload file here :) </p>
+    </p>
+    <div id="log">
+    </div>
+    <br />
+    <br />
+    <br /><br />
+    <p style="text-align:right">join <b>TitaniumNetwork</b>: <a href="https://discord.gg/unblock">discord.gg/unblock</a>
+      <br />
+      <i>~ luphoria</i>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
